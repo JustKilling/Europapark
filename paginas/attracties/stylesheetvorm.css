@@ -10,11 +10,13 @@
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	background-image: url(images/startpage.jpg);
+	background-image: url(../../images/background.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 body {
-	padding-top: 100px;
+	padding-top: 90px;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.1em;
 }
@@ -83,7 +85,7 @@ footer {
 	z-index: 10;
    	width:100%;
 	background:#1a2c56;
-	margin-top: 120px;
+	margin-top: 100px;
 }
 #footerWrapper{
 	background: #1a2c56;
@@ -91,7 +93,7 @@ footer {
 #wave{
 	position: absolute;
 	z-index: -1;
-	bottom: 122px;
+	bottom: 110px;
 }
 footer h1{
 	color: white;
@@ -130,7 +132,7 @@ footer li{
 	left: 0;
 	background-color: white;
 	
-	transform: scaleX(0.04);
+	transform: scaleX(0.05);
 	transition: all 0.3s ease-in-out 0s;
 }
 #footerLinks li a:hover::before{
@@ -193,161 +195,46 @@ h1 {
 	text-align: center;
 	font-size: 2.3em;
 	color: #1a2c56;
-	margin-bottom: .8em;
+	margin-bottom: .2em;
 }
 
 h2 {
 	text-align: center;
 	font-size: 1.6em;
-	color: white;
+	color: #1a2c56;
 	margin-bottom: .2em;
 }
 /* pagina-eigen */
-
-#articleOver {
-	display: inline-block;
+header{
+	margin-bottom: 80px;
 }
-
-#articleOver p {
-	text-align: left;
+section{
+	width: 50%;
+	margin: auto;
 }
-
-#articleOver img {
-	width: 30vw;
-	float: left;
-	margin-right: 1vw;
-	border-radius: 3px;
-}
-
-#articleOver button {
-	margin-top: 2em;
-}
-
-#articleOpeningstijden {
-	margin: 5em auto auto -50%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-	background-color: #1a2c56;
-	color: white;
-    width: 100vw;
-    user-select: none;
-}
-
-#articleOpeningstijden p {
+article{
+	width: 80%;
 	text-align: center;
-	margin-bottom: 1em;
+	margin-bottom: 15px;
+	margin: auto;
 }
-
-#articleOpeningstijden h1 {
-	color: white;
-}
-
-.seizoensTitel {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 2em;
-
-}
-
-
-#articleOpeningstijden img {
-	float: left;
-	position: relative;
-	margin-top: -1em;
-	margin-bottom: .5em;
-	margin-right: .5em;
-	height: 2.5em;
-	top: 10px;
-	
-}
-
-#winter img {
-	height: 2.2em;
-}
-
-#articleLocatie{
-	text-align: center;
-	margin-top: 3em;
-}
-#articleLocatie h1{
-	margin-bottom: .3em;
-}
-#locatieContainer{
-	display: flex;
-	justify-content: center;
-	margin-bottom: 6vh;
-}
-#articleLocatie img{
-	position: relative;
-	display: inline-block;
-    width: 50px;
-	margin-left: 20px;
-}
-#articleLocatie button{
+article img{
+	width: 100%;
+	margin: auto;
+	display: block;
+	border-radius: 10px;
 	margin-bottom: 20px;
 }
-
-#section {
-	margin-top: 10vh;
-	width: 50%;
-	margin: 5vh auto 0 auto;
+article h1{
+	margin-bottom: 20px;
 }
-
-header {
-	background-image: url("../../images/background.jpg");
-	background-position: center;
-	width: 100vw;
-	min-height: 100vh;
-	margin-top: -3.3vh;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-}
-#articlePrijzen table{
-	margin: 1em 0;
-	padding: 30px 10px 30px 30px;
-    border-radius: 30px;
-    min-width: 300px;
-	background: #1a2c56;
-	font-size: 1.2em;
-	width: 100%;
-	box-shadow: 0 10px 22px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
-}
-#articlePrijzen table tr{
-	border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+article p{
+	margin-bottom: 15px;
+	line-height: 30px;
 	
 }
-#articlePrijzen table th{
-	color: white;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	font-weight: bold;
-}
-#articlePrijzen table td{
-	display: table-cell;
-	color: white;
-	text-align: center;
-}
-#articlePrijzen table td:first-child{
-	padding-top: .5em;
-}
-#articlePrijzen table td:last-child {
-	padding-bottom: .5em;
-}
-#articlePrijzen table td:before {
-	font-weight: bold;
-	width: 6.5em;
-	display: inline-block;
-}
-#articlePrijzen h2{
+article h2{
 	color: #1a2c56;
-}
-#articlePrijzen ul{
-	text-align: center;
-}
-#articlePrijzen li{
-	text-align: center;
-	padding: 5px;
+	font-size: 1.2em;
+	margin: 20px;
 }

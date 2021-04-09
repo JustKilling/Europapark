@@ -20,82 +20,110 @@
     body {background-image: url("images/background.png"); background-attachment:fixed;background-position:center bottom;} 
 </style>
 <body>
-    <div id="scrollParent">
-        <header>     
+    
+    <header>     
+    
+        <nav id="nav">
+            <div id="nav-container">
+                <img src="images/logobig.svg" id="navlogo">
+            
+                <ul>
+                    <li><a id="#" href="#">Home</a></li>
+                    <li><a href="paginas/attracties/attracties.html">Attracties</a></li>
+                    <li><a href="paginas/contact/contact.html">Contact</a></li>
+                    <!-- https://www.klaverken.be/ -->
+                </ul>
+                
+            </div>
+            
+        </nav>
         
-            <nav id="nav">
-                <div id="nav-container">
-                    <img src="images/logobig.svg" id="navlogo">
-                
-                    <ul>
-                        <li><a id="test" href="#">Home</a></li>
-                        <li><a href="#">Attracties</a></li>
-                        <li><a href="paginas/contact/contact.html">Contact</a></li>
-                        <!-- https://www.klaverken.be/ -->
-                    </ul>
-                   
+        
+    </header>
+
+    <section id="section">
+        <article id="articleOver">
+            
+            <h1>Over het pretpark</h1>
+            <p><img src="images/attractie.jpg"> Europa-Park is met zijn gedetailleerde themagebieden, magische momenten en steeds weer nieuwe verrassingen een populaire bestemming voor uitstapjes! </p>
+            <p>In het hart van Europa, tussen het Zwarte Woud en de Elzas, ligt een van de mooiste attractieparken ter wereld. Meer dan 5 miljoen bezoekers uit de hele wereld komen ieder seizoen om zich te laten verbazen en verwonderen door de meer dan 100 attracties en shows en een uitbundige thematisering - helemaal volgens het motto "Tijd. Samen. Beleven".</p>
+            <a href="https://www.europapark.de/nl/park" target="_blank"><button class="press press-indigo press-pill press-raised press-ghost">Lees meer</button></a>
+        </article>
+        <article id="articleOpeningstijden">
+            <h1>Openingstijden</h1>
+            <div id="winter">
+                <div class="seizoensTitel">
+                    <img src="images/snowflake.png" alt="">
+                    <h2>Winter</h2>
                 </div>
-                
-            </nav>
-            
-            <!-- <div id="introvid"> -->
-                <!-- <div id="introvidcontainer"> -->
-                    
-                    <!-- <video autoplay muted loop>
-                        <!-- <source src="https://kareldegoede-my.sharepoint.com/personal/emiel_delaey_sintjozefbrugge_be/Documents/Eigen/europaparkvideo.mp4"> -->
-                        <!-- <source src="https://r5---sn-5hnekn7z.c.drive.google.com/videoplayback?expire=1616104884&ei=dJVTYMipCJjZu7APzLatuAY&ip=84.199.113.25&cp=QVRGWEJfU1hWRVhPOnlLZWFhTG9Pd3I3SUNHXzdOazRrZmUyWXdZa2hBTlFOb2tuc3hIOXZFUVc&id=69319d151d1953b8&itag=18&source=webdrive&requiressl=yes&mh=P0&mm=32&mn=sn-5hnekn7z&ms=su&mv=m&mvi=5&pl=14&sc=yes&ttl=transient&susc=dr&driveid=1Ulon8hkUaYOaWkbg07OvS0tFx6mZAH_R&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=40.216&lmt=1616087138255777&mt=1616089944&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAJt6Igz3OI1xOd44ZmuR4m0vIzfFi1f5tSwRgb64MRGeAiB3KwKZi1Pqt8u45bBJgzNM3sS9Ly_5oZ4lE5PnQ0i6Yw==&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRQIgWkFMa_5bXBrrd-x0jXcxeiiE6WgdiHhVl5MkMnm8eSYCIQDoQL7iLJ8fSFSR7N_coeSv3SkHaBOJaUoip9ZU4a1wWg==&cpn=3VMNadrJBIJ_raFw&c=WEB_EMBEDDED_PLAYER&cver=1.20210315.1.1" type="video/webm"> -->
-                    <!-- </video> -->
-                    <!-- <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;margin-top: 20px;"><iframe src="https://streamable.com/e/nzmtiw?autoplay=1&nocontrols=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>                <div id="topintrovid"></div> -->
-                <!-- </div> -->
-               
-            <!-- </div> -->
-            
-        </header>
-    
-        <section id="section">
-            <article id="articleOver">
-                
-                <h1>Over het pretpark</h1>
-                <p><img src="images/attractie.jpg"> Europa-Park is met zijn gedetailleerde themagebieden, magische momenten en steeds weer nieuwe verrassingen een populaire bestemming voor uitstapjes! </p>
-                <p>In het hart van Europa, tussen het Zwarte Woud en de Elzas, ligt een van de mooiste attractieparken ter wereld. Meer dan 5 miljoen bezoekers uit de hele wereld komen ieder seizoen om zich te laten verbazen en verwonderen door de meer dan 100 attracties en shows en een uitbundige thematisering - helemaal volgens het motto "Tijd. Samen. Beleven".</p>
-                <a href="https://www.europapark.de/nl/park" target="_blank"><button class="press press-indigo press-pill press-raised press-ghost">Lees meer</button></a>
-            </article>
-            <article id="articleOpeningstijden">
-                <h1>Openingstijden</h1>
-                <div id="winter">
+                <p>Europapark is <strong>elke dag</strong> open van <strong>11.00 tot minstens 19.00 uur</strong></p>        
+            </div>
+                <div id="zomer"></div>
                     <div class="seizoensTitel">
-                        <img src="images/snowflake.png" alt="">
-                        <h2>Winter</h2>
+                        <img src="images/sun.svg"> 
+                        <h2>Zomer</h2>
                     </div>
-                    <p>Europapark is <strong>elke dag</strong> open van <strong>11.00 tot minstens 19.00 uur</strong></p>        
+                    <p>Europapark is <strong>elke dag</strong> open van <strong>9.00 tot minstens 18.00 uur</strong></p>
                 </div>
-                    <div id="zomer"></div>
-                        <div class="seizoensTitel">
-                            <img src="images/sun.svg"> 
-                            <h2>Zomer</h2>
-                        </div>
-                        <p>Europapark is <strong>elke dag</strong> open van <strong>9.00 tot minstens 18.00 uur</strong></p>
-                    </div>
-                </article>
-                <article id="articleLocatie">
-                    <h1>Locatie</h1>
-                    <div id="locatieContainer">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1229.6792334620181!2d7.722758470077799!3d48.25948321760464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47913a2b2a7a501d%3A0x1318a88a4700169f!2sEuropa-Park-Stra%C3%9Fe%202%2C%2077977%20Rust%2C%20Germany!5e0!3m2!1sen!2sbe!4v1616877707826!5m2!1sen!2sbe&language=nl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        <div>
-                            <button class="btnRoute"><span class="btnIcon"></span> ROUTE</button>
-                            
-                        </div>
-                        
-                    </div>
-                </article>
-        </section>
-    </div>
+            </article>
+            <article id="articleLocatie">
+                <h1>Locatie</h1><a target="_blank" href="https://www.google.com/maps/dir//48.2597294,7.7231868/@48.259729,7.723187,17z?hl=nl"><button class="press press-indigo press-pill press-raised press-ghost">ROUTE</button></a>
+                <div id="locatieContainer">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1229.6792334620181!2d7.722758470077799!3d48.25948321760464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47913a2b2a7a501d%3A0x1318a88a4700169f!2sEuropa-Park-Stra%C3%9Fe%202%2C%2077977%20Rust%2C%20Germany!5e0!3m2!1sen!2sbe!4v1616877707826!5m2!1sen!2sbe" width="600" height="450" style="border:0; box-shadow: 0px 0px 29px -4px rgba(0,0,0,0.35);" allowfullscreen="" loading="lazy"></iframe>
+                    
+                </div>
+            </article>
+            <article id="articlePrijzen">
+                <h1>Prijzen </h1>
+            <table class="rwd-table">
+                <tr>
+                    <th>Volwassenen (12+)</th>
+                    <th>Kinderen (4-11)</th>
+                    <th>Senioren (60+)</th>
+                    <th>Speciaal tarief</th>
+                </tr>
+                <tr>
+                    <td>€55,00</td>
+                    <td>€47,00</td>
+                    <td>€47,00</td>
+                    <td>€47,00</td>
+                </tr>
+            </table>
+            <h2>Tips</h2>
+            <ul>
+                <li>Bij ons hebben kinderen t/m 3 jaar gratis toegang tot het attractiepark (Geen ticket vereist)</li>
+                <li>Voor het jarige kind hoeft geen ticket op datum gekocht te worden - vrije toegang is op de verjaardag zelf gegarandeerd (op vertoon van een identiteitsbewijs)</li>
+            </ul>
+            
+        </article>
+    </section>
     
     
-    <footer class="fade">test</footer>
+    
+   
+    <footer>
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(26, 44, 86, 1)" offset="0%"></stop><stop stop-color="rgba(26, 44, 86, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,10L26.7,18.3C53.3,27,107,43,160,53.3C213.3,63,267,67,320,61.7C373.3,57,427,43,480,33.3C533.3,23,587,17,640,15C693.3,13,747,17,800,23.3C853.3,30,907,40,960,48.3C1013.3,57,1067,63,1120,58.3C1173.3,53,1227,37,1280,31.7C1333.3,27,1387,33,1440,45C1493.3,57,1547,73,1600,76.7C1653.3,80,1707,70,1760,70C1813.3,70,1867,80,1920,80C1973.3,80,2027,70,2080,68.3C2133.3,67,2187,73,2240,78.3C2293.3,83,2347,87,2400,78.3C2453.3,70,2507,50,2560,40C2613.3,30,2667,30,2720,40C2773.3,50,2827,70,2880,65C2933.3,60,2987,30,3040,25C3093.3,20,3147,40,3200,51.7C3253.3,63,3307,67,3360,58.3C3413.3,50,3467,30,3520,30C3573.3,30,3627,50,3680,60C3733.3,70,3787,70,3813,70L3840,70L3840,100L3813.3,100C3786.7,100,3733,100,3680,100C3626.7,100,3573,100,3520,100C3466.7,100,3413,100,3360,100C3306.7,100,3253,100,3200,100C3146.7,100,3093,100,3040,100C2986.7,100,2933,100,2880,100C2826.7,100,2773,100,2720,100C2666.7,100,2613,100,2560,100C2506.7,100,2453,100,2400,100C2346.7,100,2293,100,2240,100C2186.7,100,2133,100,2080,100C2026.7,100,1973,100,1920,100C1866.7,100,1813,100,1760,100C1706.7,100,1653,100,1600,100C1546.7,100,1493,100,1440,100C1386.7,100,1333,100,1280,100C1226.7,100,1173,100,1120,100C1066.7,100,1013,100,960,100C906.7,100,853,100,800,100C746.7,100,693,100,640,100C586.7,100,533,100,480,100C426.7,100,373,100,320,100C266.7,100,213,100,160,100C106.7,100,53,100,27,100L0,100Z"></path></svg>
+            <h1 id="footerTop"><span>Navigatie</span></h1>
+            <img src="images/logobig.svg" alt="">
+            <ul id="footerLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="paginas/attracties/attracties.html">Attracties</a></li>
+                <li><a href="paginas/contact/contact.html">Contact</a></li>
+            </ul>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/europaparkNL/"target="_blank" class="social-icon"> <i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/europaparknl"target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.tiktok.com/@europapark?lang=nl"target="_blank" class="social-icon"> <i class="fab fa-tiktok"></i></a></li>
+                <li><a href="https://www.youtube.com/user/EuropaParkChannel"target="_blank" class="social-icon"> <i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/europapark/"target="_blank" class="social-icon"> <i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        
+        
+    </footer>
     <script src="scripts/index.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 </html>
