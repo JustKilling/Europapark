@@ -1,17 +1,20 @@
-header{
+header {
 	margin-bottom: 80px;
 }
-section{
+
+section {
 	width: 50%;
 	margin: auto;
 }
-article{
+
+article {
 	width: 80%;
 	text-align: center;
 	margin-bottom: 15px;
 	margin: auto;
 }
-article img{
+
+article img {
 	width: 100%;
 	margin: auto;
 	display: block;
@@ -19,15 +22,17 @@ article img{
 	margin-bottom: 20px;
 	cursor: pointer;
 }
-article h1{
+
+article h1 {
 	margin-bottom: 20px;
 }
-article p{
+
+article p {
 	margin-bottom: 15px;
 	line-height: 30px;
-	
 }
-article h2{
+
+article h2 {
 	font-size: 1.2em;
 	margin: 20px;
 }
